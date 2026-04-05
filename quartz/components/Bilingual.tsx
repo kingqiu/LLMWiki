@@ -2,9 +2,13 @@
 import bilingualScript from "./scripts/bilingual.inline"
 import { QuartzComponent, QuartzComponentConstructor } from "./types"
 
-// This component renders nothing — the toggle button is injected into the DOM
-// by bilingual.inline.ts via document.addEventListener("nav", ...)
-const Bilingual: QuartzComponent = () => <></>
+const Bilingual: QuartzComponent = () => {
+  return (
+    <button id="bilingual-toggle" class="bilingual-toggle" aria-label="Toggle Chinese translation" aria-pressed="false" title="Show Chinese translation">
+      中
+    </button>
+  )
+}
 
 Bilingual.afterDOMLoaded = bilingualScript
 

@@ -4,26 +4,21 @@
 
 // ── Bilingual Toggle Button ──────────────────────────────────────────────────
 .bilingual-toggle {
-  position: fixed;
-  bottom: 1.5rem;
-  right: 1.5rem;
-  z-index: 1000;
-  width: 2.4rem;
-  height: 2.4rem;
-  border-radius: 50%;
-  border: 2px solid var(--gray);
-  background: var(--light);
-  color: var(--darkgray);
-  font-size: 0.85rem;
-  font-weight: 700;
-  font-family: var(--cjkBodyFont, sans-serif);
-  cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
   display: flex;
   align-items: center;
   justify-content: center;
-  line-height: 1;
+  background: transparent;
+  border: 1.5px solid var(--gray);
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--darkgray);
+  width: 1.65rem;
+  height: 1.65rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: var(--cjkBodyFont, sans-serif);
+  padding: 0;
+  transition: color 0.2s, border-color 0.2s;
 
   &:hover {
     border-color: var(--secondary);
@@ -31,9 +26,8 @@
   }
 
   &.active {
-    background: var(--secondary);
-    color: var(--light);
     border-color: var(--secondary);
+    color: var(--secondary);
   }
 }
 
