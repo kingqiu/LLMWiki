@@ -8,16 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "LLM Wiki",
+    pageTitleSuffix: " | LLM Wiki",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    analytics: null,
+    locale: "zh-CN",
+    baseUrl: "kingqiu.github.io/LLMWiki",
+    ignorePatterns: ["private", "templates", ".obsidian", "web-sources"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
