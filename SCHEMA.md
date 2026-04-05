@@ -38,16 +38,16 @@ sources: {count}
 {2-3 paragraph synthesis of the topic}
 
 ## Key Concepts
-- [[concepts/{concept}|{Concept Name}]] - one-line description
+- [[{topic}/concepts/{concept}|{Concept Name}]] - one-line description
 
 ## Key Entities
-- [[entities/{entity}|{Entity Name}]] - one-line description
+- [[{topic}/entities/{entity}|{Entity Name}]] - one-line description
 
 ## Open Questions
 - {questions worth investigating}
 
 ## Sources
-- [[sources/{source}|{Source Title}]]
+- [[{topic}/sources/{source}|{Source Title}]]
 ```
 
 ### Concept Page (`concepts/{concept}.md`)
@@ -67,8 +67,8 @@ tags: [concept, {topic}]
 {explanation with examples}
 
 ## Connections
-- Related to: [[concepts/{other}]]
-- Mentioned in: [[sources/{source}]]
+- Related to: [[{topic}/concepts/{other}]]
+- Mentioned in: [[{topic}/sources/{source}]]
 ```
 
 ### Source Page (`sources/{source}.md`)
@@ -90,7 +90,7 @@ source_path: "{relative path to raw file}"
 {detailed summary}
 
 ## Relevant Concepts
-- [[concepts/{concept}]]
+- [[{topic}/concepts/{concept}]]
 ```
 
 ### Synthesis Page (`synthesis/{analysis}.md`)
@@ -107,8 +107,8 @@ tags: [synthesis, {topic}]
 {cross-cutting analysis, comparison, or insight}
 
 ## Supporting Evidence
-- From [[sources/{source1}]]: {evidence}
-- From [[sources/{source2}]]: {evidence}
+- From [[{topic}/sources/{source1}]]: {evidence}
+- From [[{topic}/sources/{source2}]]: {evidence}
 ```
 
 ## Rules
@@ -123,3 +123,9 @@ tags: [synthesis, {topic}]
 8. Keep summaries concise - prefer bullet points over long paragraphs
 9. Tag pages consistently: every page should have the topic tag
 10. Images referenced in wiki pages should use relative paths
+11. **CRITICAL — Wikilink paths must be full paths from the content root.** Quartz resolves wikilinks from the content root directory, NOT relative to the current file. Always include the full topic prefix. Examples:
+    - CORRECT: `[[ai-agent-architecture/concepts/harness|Harness]]`
+    - WRONG: `[[concepts/harness|Harness]]`
+    - CORRECT: `[[ai-agent-architecture/sources/harness-deep-dive|Harness Deep Dive]]`
+    - WRONG: `[[sources/harness-deep-dive|Harness Deep Dive]]`
+    - Pattern: `[[{topic}/{subfolder}/{slug}|Display Text]]`
