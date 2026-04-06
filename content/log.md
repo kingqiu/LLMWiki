@@ -77,3 +77,17 @@ Chronological record of all wiki operations.
   - Platform integration strategy: "agent-as-feature" (WeChat, DingTalk) vs. Western "agent-as-product"
 - **Wiki health**: Excellent - no structural issues, all pages well-connected
 
+## [2026-04-06] translate | Enterprise Agent China | Bilingual conversion
+
+- **Translation scope**: All 31 pages converted to bilingual format (EN + ZH)
+- **Translation engine**: GLM-5 (Zhipu AI) via Anthropic-compatible API
+- **Processing approach**: 4 batches to avoid API overload
+  - Batch 1: 8 concept pages (166 translation blocks)
+  - Batch 2: 6 entity + overview pages (84 translation blocks)
+  - Batch 3: 8 source pages (part 1)
+  - Batch 4: 9 source + synthesis pages (part 2)
+- **Format**: Each English paragraph followed by `<div class="zh-trans">中文翻译</div>`
+- **Technical terms preserved**: Agent, Harness, CLI, LLM, SDK, API, MLPS, PIPL, RAG, MCP, etc.
+- **Total translation blocks added**: ~450+ across all pages
+- **Deployment**: Rebuilt wiki and pushed to GitHub Pages
+
