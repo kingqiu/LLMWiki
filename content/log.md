@@ -33,3 +33,20 @@ Chronological record of all wiki operations.
   - Harness is the new mandatory infrastructure layer
   - agentskills.io achieved 100K+ installs across 20+ platforms
   - 40% of agentic AI projects may be canceled by 2027 (Gartner)
+## [2026-04-06] lint+heal | Health check + knowledge gap filling
+
+- **Scan results**: 50 pages checked
+  - 🔴 Broken links: 0
+  - 🟡 Orphan pages: 0
+  - 🟠 Contradictions: 0
+  - 🟡 Missing concept pages: 5 identified (RAG, Planning, Reflection, Observability, LangGraph)
+  - 🔵 Knowledge gaps: 3 questions identified
+- **Heal actions**: Created 4 concept pages + 1 synthesis page
+  - [[ai-agent-architecture/concepts/rag|RAG]] - Retrieval-augmented generation vs agent memory distinction
+  - [[ai-agent-architecture/concepts/planning|Planning]] - Task decomposition, benchmarks (TaskBench, AgentBench)
+  - [[ai-agent-architecture/concepts/reflection|Reflection]] - Metacognitive self-critique, Reflexion framework
+  - [[ai-agent-architecture/concepts/observability|Observability]] - Production monitoring, OpenTelemetry, distributed tracing
+  - [[ai-agent-architecture/synthesis/rag-vs-memory-boundary|RAG vs Memory Boundary]] - Architectural guidance on when to use each
+- **Sources**: All new content cross-validated from ≥2 trusted sources (arxiv.org, github.com, langchain.com, anthropic.com)
+- **Wiki health**: Excellent - no structural issues, all pages well-connected
+

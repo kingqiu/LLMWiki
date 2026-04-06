@@ -11,19 +11,23 @@ A knowledge base built and maintained by LLM, following the [LLM Wiki](https://g
 
 ### [[ai-agent-architecture/overview|AI Agent Architecture]]
 
-The full landscape of AI agent design — from foundational patterns and scaling laws to enterprise deployment and security. 24 sources, 12 concepts, 5 entities, 3 synthesis pages.
+The full landscape of AI agent design — from foundational patterns and scaling laws to enterprise deployment and security. 24 sources, 16 concepts, 5 entities, 4 synthesis pages.
 
 **Concepts:**
 - [[ai-agent-architecture/concepts/harness|Harness]] - Controlled boundary between reasoning and execution
 - [[ai-agent-architecture/concepts/multi-agent-architectures|Multi-Agent Architectures]] - Five topology patterns
 - [[ai-agent-architecture/concepts/agent-scaling-laws|Agent Scaling Laws]] - Empirical performance laws
 - [[ai-agent-architecture/concepts/cognitive-depth-adaptation|Cognitive Depth Adaptation]] - Dynamic reasoning allocation
+- [[ai-agent-architecture/concepts/planning|Planning]] - Task decomposition and dynamic replanning
 - [[ai-agent-architecture/concepts/agent-memory|Agent Memory]] - Memory as harness function
+- [[ai-agent-architecture/concepts/rag|RAG]] - Retrieval-augmented generation for static knowledge
 - [[ai-agent-architecture/concepts/skills|Skills]] - Fundamental capability units
 - [[ai-agent-architecture/concepts/skill-lifecycle|Skill Lifecycle]] - Create, evaluate, connect, evolve
 - [[ai-agent-architecture/concepts/self-evolving-agents|Self-Evolving Agents]] - Learning from deployment
+- [[ai-agent-architecture/concepts/reflection|Reflection]] - Metacognitive self-critique and improvement
 - [[ai-agent-architecture/concepts/sandbox-architectures|Sandbox Architectures]] - Isolation patterns
 - [[ai-agent-architecture/concepts/agent-security|Agent Security]] - Attack vectors and defenses
+- [[ai-agent-architecture/concepts/observability|Observability]] - Production monitoring and tracing
 - [[ai-agent-architecture/concepts/agentic-problem-frames|Agentic Problem Frames]] - Engineering framework
 - [[ai-agent-architecture/concepts/ai-infrastructure-stack|AI Infrastructure Stack]] - Layered architecture
 
@@ -38,6 +42,7 @@ The full landscape of AI agent design — from foundational patterns and scaling
 - [[ai-agent-architecture/synthesis/capability-vs-reliability|Capability vs Reliability: The 2026 Inflection]]
 - [[ai-agent-architecture/synthesis/skills-landscape-comparison|Skills Landscape Comparison]]
 - [[ai-agent-architecture/synthesis/enterprise-agent-adoption|Enterprise Agent Adoption: Reality vs Hype]]
+- [[ai-agent-architecture/synthesis/rag-vs-memory-boundary|RAG vs Agent Memory: Architectural Boundaries]]
 
 ## How It Works
 
