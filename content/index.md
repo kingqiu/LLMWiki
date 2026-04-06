@@ -13,6 +13,10 @@ A knowledge base built and maintained by LLM, following the [LLM Wiki](https://g
 
 The full landscape of AI agent design — from foundational patterns and scaling laws to enterprise deployment and security. 24 sources, 16 concepts, 5 entities, 4 synthesis pages.
 
+### [[enterprise-agent-china/overview|Enterprise Agent China]]
+
+Private deployment and domestic ecosystem for AI agents in Chinese enterprises. Covers platform integration (WeChat, DingTalk), domestic technology stack (Qianwen, ERNIE, Ascend NPU), skill lifecycle management, and compliance requirements (MLPS 2.0, PIPL). 14 sources, 8 concepts, 5 entities, 3 synthesis pages.
+
 **Concepts:**
 - [[ai-agent-architecture/concepts/harness|Harness]] - Controlled boundary between reasoning and execution
 - [[ai-agent-architecture/concepts/multi-agent-architectures|Multi-Agent Architectures]] - Five topology patterns

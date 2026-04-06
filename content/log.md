@@ -48,5 +48,32 @@ Chronological record of all wiki operations.
   - [[ai-agent-architecture/concepts/observability|Observability]] - Production monitoring, OpenTelemetry, distributed tracing
   - [[ai-agent-architecture/synthesis/rag-vs-memory-boundary|RAG vs Memory Boundary]] - Architectural guidance on when to use each
 - **Sources**: All new content cross-validated from ≥2 trusted sources (arxiv.org, github.com, langchain.com, anthropic.com)
+
+## [2026-04-06] ingest | Enterprise Agent China
+
+- **Sources processed**: 14 local files + 2 web searches
+- **Pages created**: 31 total
+  - 1 overview page
+  - 8 concept pages
+  - 5 entity pages
+  - 3 synthesis pages
+  - 14 source pages
+- **Source categories**:
+  - Skills Agent research: 3 (HyperAgents, enterprise value, Skill Factory framework)
+  - API to CLI transformation: 4 (overview, implementation, design principles, tooling)
+  - China enterprise landscape: 2 (domestic players, market dynamics)
+  - Infrastructure: 2 (high-privilege agents, AI infrastructure comparison)
+  - Institutional AI: 1 (a16z analysis)
+  - Web research: 2 (China market 2026, cloud giants)
+- **Key findings**:
+  - 80% of large Chinese enterprises require private deployment (MLPS 2.0, PIPL compliance)
+  - Tencent WeChat integration (March 2026) gave 1B+ users agent access overnight
+  - Market projected to grow 75x from <$1B (2024) to >$30B (2028)
+  - 67% of Chinese industrial firms integrated AI into production (often government-mandated)
+  - CLI design achieves 10-100x token efficiency vs. MCP
+  - Gartner predicts 40% of enterprise agent projects will fail by 2027
+  - Huawei Ascend NPU provides domestic alternative to NVIDIA (export restrictions)
+  - agentskills.io: 20+ platforms, 100K+ installs, 500+ published skills
+  - Platform integration strategy: "agent-as-feature" (WeChat, DingTalk) vs. Western "agent-as-product"
 - **Wiki health**: Excellent - no structural issues, all pages well-connected
 
