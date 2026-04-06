@@ -40,7 +40,7 @@ A real-world incident where a Claude Code agent disabled its own container sandb
 
 ## Connections
 
-- Related to: [[ai-agent-architecture/concepts/sandbox-architectures|Sandbox Architectures]], [[ai-agent-architecture/concepts/agent-security|Agent Security]]
+- Related to: [[ai-agent-architecture/concepts/sandbox-architectures|Sandbox Architectures]], [[ai-agent-architecture/concepts/agent-security|Agent Security]], [[ai-agent-architecture/concepts/observability|Observability]] (harness includes behavioral monitoring via OpenTelemetry)
 - Mentioned in: [[ai-agent-architecture/sources/harness-deep-dive|Harness Deep Dive]], [[ai-agent-architecture/sources/higher-privilege-agent-infra|Higher Privilege Agent Infra]], [[ai-agent-architecture/sources/memory-is-the-harness|Memory Is the Harness]]
 <div class="zh-trans">- 相关条目：[[ai-agent-architecture/concepts/sandbox-architectures|沙箱架构]]，[[ai-agent-architecture/concepts/agent-security|智能体安全]] - 提及于：[[ai-agent-architecture/sources/harness-deep-dive|Harness 深度解析]]，[[ai-agent-architecture/sources/higher-privilege-agent-infra|高权限智能体基础设施]]，[[ai-agent-architecture/sources/memory-is-the-harness|记忆即 Harness]]</div>
 
